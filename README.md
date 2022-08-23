@@ -5,7 +5,7 @@ This is a slide template I have put on github so that I can get started with tal
 
 # Abstract
 
-# Slide available [here](https://bit.ly/FILL-ME-IN)
+# Slide available [here](https://www.FILL-LINK-IN-HERE.ok)
 
 # Take home messages 
 
@@ -19,9 +19,10 @@ This is a slide template I have put on github so that I can get started with tal
 
 # Colophon
 
-  - Slides made using [xaringan](https://github.com/yihui/xaringan)
-  - Extended with
-    [xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+  - Slides made using [quarto](https://github.com/quarto-dev/quarto)
+  
+Eventually, this theme will add these features in:
+
   - Colours taken + modified from [lorikeet theme from
     ochRe](https://github.com/ropenscilabs/ochRe)
   - Header font is **Josefin Sans**
