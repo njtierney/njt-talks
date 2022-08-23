@@ -1,0 +1,141 @@
+---
+title: "Awesome Title"
+subtitle: "Where is this talk?"
+author: "Nicholas Tierney"
+institute: Telethon Kids Institute
+format: 
+  revealjs:
+    theme: [blood, extra.scss]
+editor: visual
+execute: 
+  echo: false
+  warning: true
+---
+
+```{r}
+#| label: library
+#| include: false
+library(tidyverse)
+library(visdat)
+library(naniar)
+library(gganimate)
+library(knitr)
+library(ggrepel)
+```
+
+
+```{r}
+#| label: helpers
+#| include: false
+
+icons_fa <- icons::fontawesome
+icon_box <- icons_fa$solid$`box-open`
+icon_link <- icons_fa$solid$link
+icon_twitter <- icons_fa$brands$twitter
+icon_github <- icons_fa$brands$github
+icon_plane <- icons_fa$solid$`paper-plane`
+
+
+as_table <- function(...) knitr::kable(..., format='html', digits = 3)
+
+theme_set(
+  theme_grey(base_size = 16) +
+  theme(
+    legend.position = "bottom",
+    plot.background = element_rect(fill = "transparent"),
+    legend.background = element_rect(fill = "transparent")
+  )
+)
+
+# **ni**ck's **pa**lette
+nipa <- list(red = "#c03018",
+             orange = "#f0a800",
+             green = "#609048",
+             purple = "#484878",
+             light_purple = "#A3A3BB",
+             light_green = "#AFC7A3",
+             light_orange = "#F7D37F",
+             light_red = "#DF978B",
+             pale_purple = "#ECECF1",
+             pale_green = "#D7E3D1",
+             pale_orange = "#FBE9BF",
+             pale_red = "#EFCBC4")
+
+```
+
+# Intro
+
+# Background
+
+Put More slides here.
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+# Take homes
+
+# Future Directions
+
+::: {.fragment .fade-up}
+- More features
+- More features
+- More features
+:::
+
+# Test
+
+# Thanks
+
+:::: {.columns}
+
+::: {.column width = "40%"}
+
+- So many great people
+- So many great people
+- So many great people
+- So many great people
+
+:::
+
+::: {.column width = "40%"}
+
+- So many great people
+- So many great people
+- So many great people
+- So many great people
+
+:::
+
+::::
+
+# Resources
+
+- So many things
+- So many things
+- So many things
+- So many things
+
+# Colophon
+
+- Slides made using [quarto](https://github.com/quarto-dev/quarto)
+- Colours taken + modified from [lorikeet theme from ochRe](https://github.com/ropenscilabs/ochRe)
+[njtierney/njt-talks](github.com/njtierney/njt-talks)
+<!-- - Header font is **Josefin Sans** -->
+<!-- - Body text font is **Montserrat** -->
+<!-- - Code font is **Fira Mono** -->
+<!-- - template available:  -->
+
+# Learning more
+
+`r icon_box` [package link]()
+
+`r icon_link` [talk link]()
+
+`r icon_twitter` nj_tierney
+
+`r icon_github` njtierney
+
+`r icon_plane` nicholas.tierney@gmail.com
+
+# **End.**
