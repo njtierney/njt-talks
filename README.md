@@ -1,11 +1,10 @@
 # Nick's Slide Template (replace with talk title)
-<!-- NETLIFY BADGE SHOULD GO HERE-->
 
 This is a slide template I have put on github so that I can get started with talks easier.
 
 # Abstract
 
-# Slide available [here](https://www.FILL-LINK-IN-HERE.ok)
+# Slide available [here](https://njtierney.github.io/<GITHUB-REPO-NAME>)
 
 # Take home messages 
 

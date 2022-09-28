@@ -1,39 +1,54 @@
 ---
-title: "Awesome Title"
+title: "**Awesome** Title"
 subtitle: "Where is this talk?"
+date: "DATE OF TALK"
 author: "Nicholas Tierney"
 institute: Telethon Kids Institute
 format: 
   revealjs:
     theme: [blood, extra.scss]
+    incremental: true
+    slide-number: true
+    show-slide-number: all
+    footer: "njtierney.github.io/GH-REPO-NAME/"
 editor: visual
 execute: 
   echo: false
-  warning: true
+  warning: false
+  cache: true
+  freeze: true
 ---
 
 ```{r}
 #| label: library
 #| include: false
 library(tidyverse)
-library(visdat)
-library(naniar)
-library(gganimate)
 library(knitr)
-library(ggrepel)
+library(colorspace)
+library(naniar)
+library(visdat)
+library(icons)
 ```
 
+
+```{r}
+#| label: source-r-files
+#| echo: false
+#| message: false
+#| output: false
+lapply(list.files(here::here("R"), full.names = TRUE), source)
+```
 
 ```{r}
 #| label: helpers
 #| include: false
 
 icons_fa <- icons::fontawesome
-icon_box <- icons_fa$solid$`box-open`
-icon_link <- icons_fa$solid$link
-icon_twitter <- icons_fa$brands$twitter
-icon_github <- icons_fa$brands$github
-icon_plane <- icons_fa$solid$`paper-plane`
+icon_box <- icon_style(icons_fa$solid$`box-open`, fill = "#f0a800")
+icon_link <- icon_style(icons_fa$solid$link, fill = "#f0a800")
+icon_twitter <- icon_style(icons_fa$brands$twitter, fill = "#f0a800")
+icon_github <- icon_style(icons_fa$brands$github, fill = "#f0a800")
+icon_plane <- icon_style(icons_fa$solid$`paper-plane`, fill = "#f0a800")
 
 
 as_table <- function(...) knitr::kable(..., format='html', digits = 3)
@@ -63,6 +78,7 @@ nipa <- list(red = "#c03018",
 
 ```
 
+
 # Intro
 
 # Background
@@ -72,6 +88,11 @@ Put More slides here.
 ::: {.notes}
 Speaker notes go here.
 :::
+
+# This next slide is an image
+
+##  {background-image="images/IMAGE.png" background-size="contain"}
+
 
 # Take homes
 
@@ -86,6 +107,7 @@ Speaker notes go here.
 # Test
 
 # Thanks
+
 
 :::: {.columns}
 
