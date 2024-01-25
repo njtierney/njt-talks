@@ -4,7 +4,7 @@ This is a slide template I have put on github so that I can get started with tal
 
 # Abstract
 
-# Slide available [here](https://njtierney.github.io/<GITHUB-REPO-NAME>)
+# Slide available [here](https://talks.njtierney.com/<GITHUB-REPO-NAME>)
 
 # Take home messages 
 
@@ -45,4 +45,4 @@ optimisation ([maxcovr](http://maxcovr.njtierney.com/)), Bayesian Data Analysis,
 Nick is a member of the [rOpenSci](https://ropensci.org/) collective, which works to make science
 open using R, has been the lead organiser for the rOpenSci ozunconf
 events from 2016-2018 ([2016](https://auunconf.ropensci.org/), [2017](https://ozunconf17.ropensci.org/), [2018](https://ozunconf18.ropensci.org/)). Outside of research, Nick likes to
-hike, trail run, kayak, rockclimb, make coffee, bake sourdough, (eventually) knit a hat, carve spoons, take photos, and explore new hobbies.
+hike long distances, trail run, make coffee, take photos, and explore new hobbies.
